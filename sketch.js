@@ -140,6 +140,10 @@ function Link(_deb,_end){
   this.name ="_blank";
   this.deb = _deb;
   this.end = _end;
+  var x1=this.deb.x;
+  var y1=this.deb.y;
+  var x2=this.end.x;
+  var y2=this.end.y;
 
   this.display = function() {
     if (this.selected) {
@@ -148,7 +152,12 @@ function Link(_deb,_end){
       stroke(0);
     }
 
-    line (this.deb.x,this.deb.y,this.end.x,this.end.y);
+    line (x1,y1,x2,y2);
+    push();
+ translate( (x1+x2)/2, (y1+y2)/2 );
+ rotate( atan2(y2-y1,x2-x1) );
+ text(this.name, 0, -5);
+ pop();
 }
 }
 
