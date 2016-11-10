@@ -1,9 +1,9 @@
 function windowResized() {
-	resizeCanvas(windowWidth, windowHeight);
+//	resizeCanvas(windowWidth, windowHeight);
  var  canvas = document.getElementById("myCanvas");
     canvas.width = document.body.clientWidth;
-    canvas.height = document.body.clientHeight; 
-    
+    canvas.height = document.body.clientHeight;
+
     //ramener les noeuds dans le graphe
      for (var i=0; i<noeuds.length; i++) {
     var x=noeuds[i].x;

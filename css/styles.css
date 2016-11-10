@@ -1,2 +1,4 @@
-canvas { position:fixed; top:0; left:0; z-index:1; }
+body {padding: 0; margin: 0;}
+canvas{ position:fixed; top:0; left:0; z-index:1; vertical-align: top;}
+/*#defaultCanvas0 { position:fixed;  top:0; left:0; vertical-align: top; z-index:2; }*/
 #contenu { position:relative; z-index:2; }
