@@ -22,7 +22,7 @@ git clone https://github.com/scenaristeur/CreateRDF-js.git
 ```
 cd CreateRDF-js
 ```
-* puis [lancez un serveur web selon votre version de python nstallée, comme décrit ici](https://github.com/processing/p5.js/wiki/Local-server) 
+* puis lancez un serveur web selon votre version de python installée, comme décrit [ici](https://github.com/processing/p5.js/wiki/Local-server) 
 Python 2 : 
 ```
 python -m SimpleHTTPServer
@@ -33,7 +33,7 @@ python -m http.server
 ```
 
 profitez ensuite grâce à votre navigateur favoris. 
-[http://127.0.0.1:8000](http://127.0.0.1:8000)
+[http://127.0.0.1:8000](http://127.0.0.1:8000) ou port 3000 selon votre version de python
 
 
 ###CreateRDF-js vous aide à créer vos propres graphes RDF
@@ -67,7 +67,7 @@ profitez ensuite grâce à votre navigateur favoris.
 
 ![https://raw.githubusercontent.com/scenaristeur/CreateRDF-js/master/img/CreateRdf-js%20Smag0%20Projet%20Blob%20P5JS%20ONEDOLLAR%20opensource.png](https://raw.githubusercontent.com/scenaristeur/CreateRDF-js/master/img/CreateRdf-js%20Smag0%20Projet%20Blob%20P5JS%20ONEDOLLAR%20opensource.png)
 
-### !B-) Motivé pour écrire la suite ?
+### en developpement : export au format rdf / ttl , json, envoi vers un endpoint sparql Fuseki ou autre... collaboration comme sur [DreamcatcherAutonome](http://dreamcatcher-smag1.rhcloud.com/autonome/public/index.html)
 
 
 
