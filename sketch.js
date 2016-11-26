@@ -1,10 +1,10 @@
 var cnv;
 var noeuds = [];
-<<<<<<< HEAD
+//<<<<<<< HEAD
 var statements = [];
-=======
+//=======
 var links = [];
->>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
+//>>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
 var selection = [];
 var init = true;
 var yoff = 0;
@@ -12,7 +12,7 @@ var dOff = 1;
 var noeudsSelectionnes = [];
 
 function setup() {
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	cnv = createCanvas(windowWidth, windowHeight);
 	document.getElementById("myCanvas").style.width = windowWidth;
 	document.getElementById("myCanvas").style.height = windowHeight;
@@ -45,11 +45,11 @@ function draw() {
 		rect(selection[0], selection[1], selection[2], selection[3]);
 	}
 	
-=======
-  cnv = createCanvas(windowWidth, windowHeight);
-  console.log(windowWidth+" "+windowHeight);
-  document.getElementById("myCanvas").style.width = windowWidth;
-  document.getElementById("myCanvas").style.height = windowHeight;
+//=======
+ // cnv = createCanvas(windowWidth, windowHeight);
+ // console.log(windowWidth+" "+windowHeight);
+ // document.getElementById("myCanvas").style.width = windowWidth;
+ // document.getElementById("myCanvas").style.height = windowHeight;
 /*  cnv.style.position = fixed;
   cnv.style.top = 0;
   cnv.style.left = 0;
@@ -88,7 +88,7 @@ function draw() {
     rect(selection[0], selection[1], selection[2], selection[3]);
   }
 
->>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
+//>>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
 }
 
 
@@ -169,7 +169,7 @@ console.log(noeudsSelectionnes);
 
 
 function rectangleSelection(debX, debY, finX, finY) {
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	
 	console.log(debX, debY, finX, finY);
 	selection = [debX, debY, finX - debX, finY - debY];
@@ -191,7 +191,7 @@ function rectangleSelection(debX, debY, finX, finY) {
 		
 	}
 	
-=======
+//=======
 
 //  console.log(debX, debY, finX, finY);
   selection = [debX, debY, finX - debX, finY - debY];
@@ -244,7 +244,7 @@ link.name = propName;
 links.push(link);
 console.log(links);
 }
->>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
+//>>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
 }
 
 
@@ -278,8 +278,8 @@ function Link(_deb,_end){
 
 
 
-<<<<<<< HEAD
-=======
+//<<<<<<< HEAD
+//=======
 function Noeud() {
   this.name = "_blank";
   this.x = random(10, width - 10);
@@ -330,4 +330,4 @@ function Noeud() {
     // ellipse(this.x, this.y, this.diameter, this.diameter);
   };
 }
->>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
+//>>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104

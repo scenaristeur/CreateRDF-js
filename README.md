@@ -1,6 +1,8 @@
 # CreateRDF-js
 An easy way to create RDF graphs.
 
+![createrdf](https://raw.githubusercontent.com/scenaristeur/CreateRDF-js/master/img/CreateRdf-js%20demo.png)
+
 [DEMO INFOS ](http://scenaristeur.github.io/CreateRDF-js/)
 
 ##CreateRDF-js vous aide à créer vos propres [graphes RDF](https://fr.wikipedia.org/wiki/Resource_Description_Framework).
@@ -16,7 +18,10 @@ Récupérez le code source :
 ```
 git clone https://github.com/scenaristeur/CreateRDF-js.git
 ```
-* 
+* placez-vous ensuite dans le dossier CreateRDF-js
+```
+cd CreateRDF-js
+```
 * puis [lancez un serveur web selon votre version de python nstallée, comme décrit ici](https://github.com/processing/p5.js/wiki/Local-server) 
 Python 2 : 
 ```
