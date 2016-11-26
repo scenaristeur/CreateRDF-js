@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 canvas { position:fixed; top:0; left:0; z-index:1; }
 #contenu { position:relative; z-index:2; }
 /*#contenu { position:relative; z-index:3; }*/
+=======
+body {padding: 0; margin: 0;}
+canvas{ position:fixed; top:0; left:0; z-index:1; vertical-align: top;}
+/*#defaultCanvas0 { position:fixed;  top:0; left:0; vertical-align: top; z-index:2; }*/
+#contenu { position:relative; z-index:2; }
+>>>>>>> 0ca3d57a96ae58bfb18907f281da92aa08a2c104
