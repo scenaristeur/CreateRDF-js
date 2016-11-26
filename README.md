@@ -1,7 +1,7 @@
 # CreateRDF-js
 An easy way to create RDF graphs.
 
-![createrdf](https://raw.githubusercontent.com/scenaristeur/CreateRDF-js/master/img/CreateRdf-js%20demo.png)
+![createrdf-js demo](https://github.com/scenaristeur/CreateRDF-js/blob/master/img/CreateRDF-js%20demo.png)
 
 [DEMO INFOS ](http://scenaristeur.github.io/CreateRDF-js/)
 
