@@ -1,2 +1,3 @@
 canvas { position:fixed; top:0; left:0; z-index:1; }
 #contenu { position:relative; z-index:2; }
+/*#contenu { position:relative; z-index:3; }*/

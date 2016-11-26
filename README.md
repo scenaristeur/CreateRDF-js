@@ -2,8 +2,6 @@
 An easy way to create RDF graphs.
 
 [DEMO INFOS ](http://scenaristeur.github.io/CreateRDF-js/)
-###CreateRDF-js
-###CreateRDF-js
 
 ##CreateRDF-js vous aide à créer vos propres [graphes RDF](https://fr.wikipedia.org/wiki/Resource_Description_Framework).
 
@@ -11,7 +9,26 @@ An easy way to create RDF graphs.
 
 An easy way to create RDF graphs with [P5JS](https://p5js.org/) and [$1 Recognizer - University of Washington](http://depts.washington.edu/aimgroup/proj/dollar/)
 
+## Installation : 
+Prérequis : python 2 ou 3 installé
 
+Récupérez le code source : 
+```
+git clone https://github.com/scenaristeur/CreateRDF-js.git
+```
+* 
+* puis [lancez un serveur web selon votre version de python nstallée, comme décrit ici](https://github.com/processing/p5.js/wiki/Local-server) 
+Python 2 : 
+```
+python -m SimpleHTTPServer
+```
+ou python 3 : 
+```
+python -m http.server
+```
+
+profitez ensuite grâce à votre navigateur favoris. 
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 
 ###CreateRDF-js vous aide à créer vos propres graphes RDF
@@ -42,67 +59,11 @@ An easy way to create RDF graphs with [P5JS](https://p5js.org/) and [$1 Recogniz
 
 ![https://raw.githubusercontent.com/scenaristeur/CreateRDF-js/master/img/CreateRdf-js%20Smag0%20Projet%20Blob%20P5JS%20ONEDOLLAR%20opensource.png](https://raw.githubusercontent.com/scenaristeur/CreateRDF-js/master/img/CreateRdf-js%20Smag0%20Projet%20Blob%20P5JS%20ONEDOLLAR%20opensource.png)
 
-###Pas encore implémenté. !B-) Motivé pour écrire la suite ?
+### !B-) Motivé pour écrire la suite ?
 
-CREATE_RDF-JS CreateRdf-js BlOb.jiesse@smag0.projet ou 
+
 
 twitter : [@dfaveris](https://twitter.com/dfaveris)
 
 blog : [http://smag0.blogspot.fr](http://smag0.blogspot.fr)
 
-installation : 
-
-Récupérez le code source : 
-```
-git clone https://github.com/scenaristeur/CreateRDF-js.git
-```
-puis [lancez un serveur web comme décrit ici](https://github.com/processing/p5.js/wiki/Local-server) 
-```
-python -m SimpleHTTPServer
-```
-profitez ensuite grâce à votre navigateur favoris.
-
-
-
-CREATE_RDF-JS CreateRdf-js <BlOb.jiesse@smag0.projet>
-
-CreateRDF-js vous aide à créer votres graphes RDF
-
-
-
-
-
-Dessinez un cercle pour créer un Blob Rdf (Sujet ou Objet)
-
-
-
-On vous demande de lui donner un Nom, ou Label en rdf
-
-
-
-
-Nommez-le.
-
-
-
-
-
-Un Blob représentant votre création apparait.
-
-
-
-
-De la même manière créez un autre Blob Rdf.
-
-
-
-
-
-
-Vous pouvez ensuite les relier par la propriété Rdf qui convient (predicat).
-
-
-
-
-Pas encore implémenté. !B-)
- Motivé pour écrire la suite ?
